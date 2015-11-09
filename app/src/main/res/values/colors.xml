@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Specific -->
+    <color name="Background">#282726</color>
+    <color name="divider">#ac832a</color>
+
+    <!-- Buttons -->
+    <color name="btn_stroke">#747375</color>
+    <color name="btn_stroke2">#ac832a</color>
+
+    <!-- Generic -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3439e8</color>
+    <color name="red">#ff3135</color>
+    <color name="green">#6eff6f</color>
+    <color name="purple">#992cff</color>
+    <color name="yellow">#ffe26b</color>
+
+</resources>

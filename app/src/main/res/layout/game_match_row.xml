@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:background="@color/Background"
+    >
+
+
+    <!-- Nome Giocatore -->
+    <TextView
+        android:id="@+id/match_player_name"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/img_side"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textnorm"
+        android:layout_weight="2"
+        android:gravity="center" />
+
+
+    <!-- Punteggio -->
+    <TextView
+        android:id="@+id/match_player_score"
+        android:layout_height="@dimen/img_side"
+        android:layout_width="0dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textnorm"
+        android:background="@color/Background"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+
+    <!-- Immagine sulla DX -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/Background">
+
+        <ImageView
+            android:id="@+id/match_standing"
+            android:layout_width="@dimen/img_side"
+            android:layout_height="@dimen/img_side"
+            />
+    </LinearLayout>
+
+</LinearLayout>

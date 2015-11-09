@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_little"
+    >
+
+    <ImageView
+        android:id="@+id/stat_standing"
+        android:layout_width="@dimen/img_side"
+        android:layout_height="@dimen/img_side"
+        />
+
+    <TextView
+        android:id="@+id/stat_player_name"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/img_side"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textmed"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        >
+
+        <TextView
+            android:id="@+id/stat_player_score_1st"
+            android:layout_height="@dimen/img_side"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textmed"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/stat_standing_1st"
+            android:layout_width="@dimen/img_side_tiny"
+            android:layout_height="@dimen/img_side_tiny"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/padding_little"
+            />
+
+        <TextView
+            android:id="@+id/stat_player_score_2nd"
+            android:layout_height="@dimen/img_side"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textmed"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/stat_standing_2nd"
+            android:layout_width="@dimen/img_side_tiny"
+            android:layout_height="@dimen/img_side_tiny"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/padding_little"
+            />
+
+        <TextView
+            android:id="@+id/stat_player_score_3rd"
+            android:layout_height="@dimen/img_side"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textmed"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/stat_standing_3rd"
+            android:layout_width="@dimen/img_side_tiny"
+            android:layout_height="@dimen/img_side_tiny"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/padding_little"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Seven Wonders Scorer</string>
+    <string name="done">Done</string>
+
+    <!--  Main Activity -->
+    <string name="Button1">New Game</string>
+    <string name="Button2">Players</string>
+    <string name="Button3">Statistics</string>
+    <string name="Button4">History</string>
+
+    <!--  Select Expansions -->
+    <string name="Expansions_Select">Select Expansions</string>
+    <string name="Expansion1">Cities</string>
+    <string name="Expansion2">Leaders</string>
+    <string name="Expansion3">Game Wonders</string>
+    <string name="Expansion4">Ruins</string>
+    <string name="Expansion5">Sailors</string>
+    <string name="Expansion6">Myths</string>
+    <string name="Expansion7">Empires</string>
+    <string name="Expansion8">Lost Wonders</string>
+
+    <!-- Chose Players  -->
+    <string name="Chose_Players">Chose Players</string>
+    <string name="Players_Available">Players: 10/10</string>
+    <string name="Teams">Teams</string>
+    <string name="Player">Player</string>
+
+    <!-- Match  -->
+    <string name="Match">Match Scores</string>
+    <string name="legendPL">Player</string>
+    <string name="legendSC">Score</string>
+    <string name="legendST">Pos</string>
+    <string name="legendTeams">Team</string>
+
+    <!-- Player Score -->
+    <string name="Match_Score">Player Score</string>
+
+
+
+    <!-- Player -->
+    <string name="Main_Player">Players Management</string>
+    <string name="New_Player">New Player</string>
+
+
+
+    <!-- Statistics -->
+    <string name="Statistics_Main">Main Statistics</string>
+    <string name="Stat_btn1">Players</string>
+    <string name="Stat_btn2">Category</string>
+    <string name="Stat_btn3">Highest</string>
+    <string name="Stat_btn4">Lowest</string>
+    <string name="Stat_btn5">Average</string>
+
+
+
+    <!-- Storico -->
+    <string name="Storico">Match History</string>
+    <string name="Date_match">Date</string>
+    <string name="Players_match">Players</string>
+    <string name="Number_Match">Match #</string>
+
+
+    <!-- Match Visual -->
+    <string name="Storico_Disp">Match</string>
+
+
+</resources>

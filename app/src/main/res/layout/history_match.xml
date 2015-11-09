@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/match_date_legend"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
+            android:text="@string/Date_match"
+            android:background="@color/Background"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/match_number_legend"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
+            android:text="@string/Number_Match"
+            android:background="@color/Background"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/match_players_legend"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
+            android:text="@string/Players_match"
+            android:background="@color/Background"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/history_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/divider"
+        android:dividerHeight="2dp"
+        />
+
+</LinearLayout>

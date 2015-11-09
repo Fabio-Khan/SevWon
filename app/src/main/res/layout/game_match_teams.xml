@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:id="@+id/scorelegendrow_teams"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="none">
+
+        <TextView
+            android:id="@+id/playerlegend_teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
+            android:text="@string/legendPL"
+            android:background="@color/Background"
+            android:layout_weight="2"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/scorelegend_teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
+            android:text="@string/legendSC"
+            android:background="@color/Background"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/teamlegend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
+            android:text="@string/legendTeams"
+            android:background="@color/Background"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/positionlegend_teams"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text"
+            android:text="@string/legendST"
+            android:background="@color/Background"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/match_list_teams"
+        android:orientation="vertical"
+        android:layout_below="@+id/scorelegendrow_teams"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/divider"
+        android:dividerHeight="2dp"
+        android:layout_marginTop="10dp"
+        android:choiceMode="none">
+    </ListView>
+
+</RelativeLayout>

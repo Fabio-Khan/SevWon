@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/match_date"
+        android:layout_height="@dimen/textsize"
+        android:layout_width="0dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textnorm"
+        android:background="@color/Background"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/match_number"
+        android:layout_height="@dimen/textsize"
+        android:layout_width="0dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textnorm"
+        android:background="@color/Background"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/match_players"
+        android:layout_height="@dimen/textsize"
+        android:layout_width="0dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textnorm"
+        android:background="@color/Background"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+</LinearLayout>

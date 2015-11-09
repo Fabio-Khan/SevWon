@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scoring"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+    <TextView
+        android:id="@+id/playerscore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Match_Score"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <GridView
+        android:id="@+id/score_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:choiceMode="none"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/score_done"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:text="@string/done"
+        android:clickable="true"
+        android:background="@drawable/draw_button_shape"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
